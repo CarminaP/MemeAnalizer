@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<h1>This is the analysis of</h1>
+<img src=" {{url_for('send_image', filename=image_name)}}" alt="Meme Image">
+<div>
+<h2>RGB Graph</h2>
+<img src="{{url_for('static', filename='RGB.png')}}" alt="Plot image">
+</div>
+<br>
+<button type="button" onclick="alert('Hello world!')">Analyze another meme</button>
+</body>
+</html>
