@@ -1,0 +1,29 @@
+Tema 0
+Palabras: 0.037*"mama" + 0.037*"cierto" + 0.037*"sirvele" + 0.037*"comer" + 0.037*"senora" + 0.037*"tiene" + 0.037*"gracias" + 0.037*"comi" + 0.037*"quiere" + 0.037*"verguenza"
+
+Tema 1
+Palabras: 0.035*"quiero" + 0.035*"porque" + 0.035*"mama" + 0.035*"casa" + 0.035*"animales" + 0.035*"digo" + 0.035*"dejame" + 0.035*"entonces" + 0.035*"unos" + 0.035*"venia"
+
+Tema 2
+Palabras: 0.060*"mama" + 0.048*"cuando" + 0.037*"verdad" + 0.025*"dice" + 0.025*"dinero" + 0.025*"porque" + 0.013*"tenido" + 0.013*"artes" + 0.013*"ciertas" + 0.013*"arreglaste"
+
+Tema 3
+Palabras: 0.061*"cuando" + 0.041*"hora" + 0.041*"adivina" + 0.022*"inteligente" + 0.022*"pero" + 0.022*"salon" + 0.022*"pasar" + 0.022*"cambiar" + 0.022*"legendario" + 0.022*"prologos"
+
+Tema 4
+Palabras: 0.044*"como" + 0.044*"poner" + 0.023*"para" + 0.023*"mama" + 0.023*"quiero" + 0.023*"llevaré" + 0.023*"trastes" + 0.023*"llevas" + 0.023*"hijo" + 0.023*"colchas"
+
+Tema 5
+Palabras: 0.074*"cuando" + 0.050*"estas" + 0.026*"dice" + 0.026*"vayas" + 0.026*"algo" + 0.026*"alergico" + 0.026*"encanta" + 0.026*"paciente" + 0.026*"musia" + 0.026*"foto"
+
+Tema 6
+Palabras: 0.041*"mama" + 0.041*"casa" + 0.041*"crush" + 0.022*"nada" + 0.022*"tarea" + 0.022*"solo" + 0.022*"quiero" + 0.022*"cachorritos" + 0.022*"hagas" + 0.022*"perro"
+
+Tema 7
+Palabras: 0.053*"cuando" + 0.053*"amigo" + 0.053*"insultan" + 0.053*"mejor" + 0.005*"mama" + 0.005*"cierto" + 0.005*"estas" + 0.005*"poner" + 0.005*"verdad" + 0.005*"crush"
+
+Tema 8
+Palabras: 0.006*"cuando" + 0.006*"mama" + 0.006*"estas" + 0.006*"poner" + 0.006*"hola" + 0.006*"cierto" + 0.006*"pero" + 0.006*"verdad" + 0.006*"crush" + 0.006*"mejor"
+
+Tema 9
+Palabras: 0.043*"cuando" + 0.043*"estudiar" + 0.043*"prisa" + 0.043*"traes" + 0.043*"lento" + 0.043*"cierto" + 0.043*"mama" + 0.043*"jugar" + 0.043*"chofer" + 0.004*"dice"

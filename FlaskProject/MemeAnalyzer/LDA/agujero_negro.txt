@@ -1,0 +1,29 @@
+Tema 0
+Palabras: 0.077*"negro" + 0.058*"agujero" + 0.040*"foto" + 0.040*"primera" + 0.039*"hace" + 0.021*"aqui" + 0.021*"cientificos" + 0.021*"esta" + 0.021*"creen" + 0.021*"xiaomi"
+
+Tema 1
+Palabras: 0.108*"como" + 0.038*"real" + 0.038*"ensenaron" + 0.038*"imaginamos" + 0.038*"realmente" + 0.038*"tinder" + 0.038*"vida" + 0.038*"instagram" + 0.038*"persona" + 0.038*"bellisimo"
+
+Tema 2
+Palabras: 0.043*"nasa" + 0.043*"buenas" + 0.043*"dando" + 0.043*"estan" + 0.043*"darnos" + 0.043*"pero" + 0.043*"obligacion" + 0.043*"imagenes" + 0.043*"miren" + 0.004*"agujero"
+
+Tema 3
+Palabras: 0.006*"negro" + 0.006*"sauron" + 0.006*"agujero" + 0.006*"internet" + 0.006*"hoyo" + 0.006*"bellisimo" + 0.006*"como" + 0.006*"real" + 0.006*"cartera" + 0.006*"realidad"
+
+Tema 4
+Palabras: 0.074*"negro" + 0.058*"agujero" + 0.056*"primera" + 0.037*"visto" + 0.020*"telescope" + 0.020*"veces" + 0.020*"foto" + 0.020*"event" + 0.020*"tierra" + 0.020*"monstruo"
+
+Tema 5
+Palabras: 0.056*"cuando" + 0.029*"casa" + 0.029*"nasa" + 0.029*"encontro" + 0.029*"vivir" + 0.029*"negatividad" + 0.029*"sauron" + 0.029*"energia" + 0.029*"pides" + 0.029*"inspiracion"
+
+Tema 6
+Palabras: 0.094*"sauron" + 0.048*"fotos" + 0.025*"hoyo" + 0.025*"ante" + 0.025*"sabia" + 0.025*"hacen" + 0.025*"habia" + 0.025*"visto" + 0.025*"mira" + 0.025*"otro"
+
+Tema 7
+Palabras: 0.034*"negro" + 0.034*"foto" + 0.034*"agujero" + 0.034*"como" + 0.034*"bien" + 0.034*"changos" + 0.034*"desde" + 0.034*"borroso" + 0.034*"estuviera" + 0.034*"tomando"
+
+Tema 8
+Palabras: 0.059*"realidad" + 0.059*"comercial" + 0.005*"negro" + 0.005*"agujero" + 0.005*"sauron" + 0.005*"bellisimo" + 0.005*"internet" + 0.005*"real" + 0.005*"hoyo" + 0.005*"como"
+
+Tema 9
+Palabras: 0.073*"negro" + 0.072*"agujero" + 0.031*"cuando" + 0.022*"imagen" + 0.021*"sauron" + 0.012*"hoyo" + 0.012*"primera" + 0.012*"cientificos" + 0.011*"foto" + 0.011*"centro"

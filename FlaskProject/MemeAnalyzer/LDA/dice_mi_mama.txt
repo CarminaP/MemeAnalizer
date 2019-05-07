@@ -1,0 +1,29 @@
+Tema 0
+Palabras: 0.031*"casa" + 0.031*"hotel" + 0.031*"sala" + 0.031*"llave" + 0.031*"salir" + 0.031*"cuarto" + 0.031*"visitar" + 0.031*"bajo" + 0.031*"tanto" + 0.031*"vienen"
+
+Tema 1
+Palabras: 0.032*"dejes" + 0.032*"pongas" + 0.032*"ella" + 0.030*"jugar" + 0.017*"llevas" + 0.017*"tengo" + 0.017*"mentira" + 0.017*"anos" + 0.017*"contra" + 0.017*"tiene"
+
+Tema 2
+Palabras: 0.055*"novia" + 0.029*"otra" + 0.029*"casa" + 0.029*"pues" + 0.029*"ayer" + 0.029*"eres" + 0.029*"hermano" + 0.029*"trajo" + 0.029*"campeon" + 0.029*"francia"
+
+Tema 3
+Palabras: 0.040*"porque" + 0.021*"metas" + 0.021*"dijo" + 0.021*"mama" + 0.021*"afuera" + 0.021*"cuando" + 0.021*"sale" + 0.021*"viejito" + 0.021*"estas" + 0.021*"duermas"
+
+Tema 4
+Palabras: 0.075*"porque" + 0.051*"contigo" + 0.051*"puedo" + 0.027*"jugar" + 0.027*"caes" + 0.027*"gusta" + 0.027*"grupo" + 0.027*"hiciste" + 0.027*"volver" + 0.027*"familia"
+
+Tema 5
+Palabras: 0.025*"dormir" + 0.025*"mama" + 0.025*"menores" + 0.025*"tengo" + 0.025*"gratis" + 0.025*"dejen" + 0.025*"anos" + 0.025*"ninos" + 0.025*"tiene" + 0.025*"regreses"
+
+Tema 6
+Palabras: 0.031*"porque" + 0.028*"cumpleanos" + 0.028*"solo" + 0.028*"vienen" + 0.028*"comer" + 0.028*"ganaste" + 0.028*"regalan" + 0.028*"tesoro" + 0.028*"nada" + 0.028*"como"
+
+Tema 7
+Palabras: 0.026*"porque" + 0.026*"andaba" + 0.026*"dieron" + 0.026*"otro" + 0.026*"para" + 0.026*"corriendo" + 0.026*"ilusionando" + 0.026*"plato" + 0.026*"vida" + 0.026*"alisado"
+
+Tema 8
+Palabras: 0.024*"dijo" + 0.024*"tasio" + 0.024*"verdad" + 0.024*"graderia" + 0.024*"teletica" + 0.024*"roger" + 0.024*"digan" + 0.024*"trick" + 0.024*"hacen" + 0.024*"dinero"
+
+Tema 9
+Palabras: 0.034*"tienes" + 0.034*"chill" + 0.034*"compro" + 0.034*"aunque" + 0.034*"carro" + 0.034*"salir" + 0.034*"para" + 0.034*"aprestar" + 0.034*"bajes" + 0.030*"porque"

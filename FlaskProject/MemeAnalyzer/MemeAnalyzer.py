@@ -2,6 +2,7 @@ import os
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
+import io
 
 from uuid import uuid4
 from flask import Flask, request, render_template, send_from_directory
@@ -17,6 +18,8 @@ def index():
 
 @app.route("/upload", methods=["POST"])
 def upload():
+
+    #### SAVE IMAGE TO images/
     target = os.path.join(APP_ROOT, 'images/')
     plotTarget = os.path.join(APP_ROOT, 'static/')
     print(target)
@@ -34,6 +37,8 @@ def upload():
     print ("Accept incoming file:", filename)
     print ("Save it to:", destination)
     upload.save(destination)
+
+    ##### EXAMPLE RGB ANALYSIS
     
     img = cv2.imread(destination)
     color = ('b','g','r')
@@ -45,7 +50,41 @@ def upload():
     plotName = "RGB.png"
     plt.savefig("/".join([plotTarget, plotName]))
 
-    return render_template("complete.html", image_name=filename)
+    ######## LDA ANALYSIS (needs tensor flow output for <result>)
+    
+    result = "agujero negro"
+    ldaResult = ""
+
+    if result == "agujero negro":
+        with io.open('LDA/agujero_negro.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "bob esponja":
+        with io.open('LDA/bob_esponja.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "chavo del ocho":
+        with io.open('LDA/chavo_del_ocho.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "dice mi mama":
+        with io.open('LDA/dice_mi_mama.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "komo lo zupo":
+        with io.open('LDA/komo_lo_zupo.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "los simpson":
+        with io.open('LDA/los_simpson.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "pikachu sorprendido":
+        with io.open('LDA/pikachu_sorprendido.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "se tenia que decir":
+        with io.open('LDA/se_tenia_que_decir.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    elif result == "ya nos exhibiste":
+        with io.open('LDA/ya_nos_exhibistes.txt', 'r', encoding='latin-1') as myfile:
+            ldaResult = myfile.read()
+    
+
+    return render_template("complete.html", image_name=filename, lda_result=ldaResult)
 
 @app.route('/upload/<filename>')
 def send_image(filename):

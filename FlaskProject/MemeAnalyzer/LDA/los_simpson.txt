@@ -1,0 +1,29 @@
+Tema 0
+Palabras: 0.037*"estaba" + 0.025*"chau" + 0.025*"dormir" + 0.025*"ahora" + 0.024*"homero" + 0.024*"sabados" + 0.024*"flojera" + 0.024*"miercoles" + 0.022*"converti" + 0.022*"temia"
+
+Tema 1
+Palabras: 0.031*"situacion" + 0.031*"volvieron" + 0.031*"hacer" + 0.031*"economica" + 0.031*"simpson" + 0.031*"predijeron" + 0.006*"cuando" + 0.006*"levantarme" + 0.006*"hablando" + 0.006*"bart"
+
+Tema 2
+Palabras: 0.038*"nunca" + 0.038*"quiero" + 0.038*"levantarme" + 0.030*"escribir" + 0.030*"anotare" + 0.030*"interesante" + 0.030*"maquina" + 0.030*"invisible" + 0.006*"estaba" + 0.006*"mira"
+
+Tema 3
+Palabras: 0.030*"armani" + 0.030*"odio" + 0.030*"marge" + 0.028*"arreglando" + 0.028*"cuarto" + 0.028*"cara" + 0.028*"mama" + 0.022*"creo" + 0.022*"proximo" + 0.022*"verte"
+
+Tema 4
+Palabras: 0.025*"garage" + 0.021*"quedas" + 0.021*"ridiculo" + 0.021*"imitar" + 0.021*"tratas" + 0.021*"famoso" + 0.020*"termine" + 0.020*"soltera" + 0.020*"madre" + 0.020*"curriculum"
+
+Tema 5
+Palabras: 0.040*"mira" + 0.034*"bart" + 0.034*"loquito" + 0.025*"descripcion" + 0.025*"manana" + 0.025*"lunes" + 0.025*"grafica" + 0.020*"justo" + 0.020*"podemos" + 0.020*"donde"
+
+Tema 6
+Palabras: 0.033*"facebook" + 0.033*"dormire" + 0.033*"eliminaron" + 0.033*"esta" + 0.027*"noche" + 0.024*"creo" + 0.006*"levantarme" + 0.006*"cuando" + 0.006*"bart" + 0.006*"estaba"
+
+Tema 7
+Palabras: 0.037*"videojuego" + 0.037*"micropagos" + 0.037*"expectativas" + 0.037*"nuevo" + 0.006*"cuando" + 0.006*"estaba" + 0.006*"bart" + 0.006*"levantarme" + 0.006*"estamos" + 0.006*"hablando"
+
+Tema 8
+Palabras: 0.028*"acabas" + 0.027*"viajas" + 0.027*"tren" + 0.027*"auriculares" + 0.025*"cuando" + 0.022*"llegas" + 0.022*"esto" + 0.022*"poner" + 0.022*"casa" + 0.022*"repruebas"
+
+Tema 9
+Palabras: 0.039*"verdad" + 0.039*"comida" + 0.039*"estamos" + 0.032*"hablando" + 0.006*"bueno" + 0.006*"cuando" + 0.006*"estaba" + 0.006*"bart" + 0.006*"mira" + 0.006*"loquito"
