@@ -1,0 +1,29 @@
+Tema 0
+Palabras: 0.060*"romeo" + 0.060*"sali" + 0.060*"admitire" + 0.060*"facil" + 0.060*"aunque" + 0.060*"omar" + 0.060*"mujer" + 0.060*"hacer" + 0.005*"medusa" + 0.005*"cuando"
+
+Tema 1
+Palabras: 0.085*"somos" + 0.082*"mama" + 0.047*"hermanas" + 0.046*"ambas" + 0.045*"gemelas" + 0.045*"annie" + 0.045*"nacimos" + 0.045*"tuyo" + 0.045*"octubre" + 0.044*"entonces"
+
+Tema 2
+Palabras: 0.057*"cuando" + 0.057*"tercio" + 0.057*"enoja" + 0.057*"auto" + 0.057*"pareja" + 0.057*"grita" + 0.057*"importa" + 0.057*"morimos" + 0.057*"estas" + 0.005*"medusa"
+
+Tema 3
+Palabras: 0.077*"crea" + 0.077*"perrito" + 0.077*"dios" + 0.040*"sobrepoblación" + 0.040*"para" + 0.040*"antibióticos" + 0.040*"bacterias" + 0.040*"humano" + 0.040*"chiquito" + 0.040*"como"
+
+Tema 4
+Palabras: 0.120*"mama" + 0.105*"gerente" + 0.055*"hablar" + 0.055*"dejeme" + 0.055*"cajero" + 0.055*"medusa" + 0.018*"somos" + 0.012*"papa" + 0.012*"entonces" + 0.011*"octubre"
+
+Tema 5
+Palabras: 0.060*"ante" + 0.060*"debo" + 0.060*"dormir" + 0.060*"repasemos" + 0.060*"todos" + 0.060*"cerebro" + 0.060*"pero" + 0.060*"errores" + 0.005*"medusa" + 0.005*"cuando"
+
+Tema 6
+Palabras: 0.047*"nunca" + 0.047*"devuelve" + 0.047*"saca" + 0.047*"amigo" + 0.047*"prestado" + 0.047*"cuando" + 0.047*"lavarlo" + 0.047*"llevaste" + 0.047*"tupper" + 0.047*"pide"
+
+Tema 7
+Palabras: 0.079*"pikachu" + 0.053*"cuando" + 0.053*"newton" + 0.028*"zilean" + 0.028*"tuviste" + 0.028*"ultea" + 0.028*"momentos" + 0.028*"rafael" + 0.028*"grande" + 0.028*"revive"
+
+Tema 8
+Palabras: 0.121*"pasar" + 0.063*"tenga" + 0.063*"pasa" + 0.063*"tenia" + 0.063*"pues" + 0.063*"pase" + 0.006*"medusa" + 0.006*"cuando" + 0.006*"pikachu" + 0.006*"madre"
+
+Tema 9
+Palabras: 0.103*"celular" + 0.103*"madre" + 0.054*"quieras" + 0.054*"ladron" + 0.054*"desbloquear" + 0.054*"quiero" + 0.054*"hago" + 0.054*"intenta" + 0.005*"medusa" + 0.005*"cuando"

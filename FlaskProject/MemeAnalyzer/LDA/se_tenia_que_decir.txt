@@ -1,0 +1,29 @@
+Tema 0
+Palabras: 0.036*"tiene" + 0.036*"pollo" + 0.025*"tampoco" + 0.025*"loco" + 0.013*"ahorra" + 0.013*"nada" + 0.013*"horario" + 0.013*"sirve" + 0.013*"futbolen" + 0.013*"buen"
+
+Tema 1
+Palabras: 0.038*"peso" + 0.025*"quieres" + 0.025*"bajar" + 0.025*"aunque" + 0.025*"practicar" + 0.013*"llegar" + 0.013*"mama" + 0.013*"dejas" + 0.013*"dias" + 0.013*"marrano"
+
+Tema 2
+Palabras: 0.063*"mejor" + 0.052*"pollo" + 0.023*"estan" + 0.020*"chicken" + 0.020*"panama" + 0.020*"sabroso" + 0.012*"primero" + 0.012*"este" + 0.012*"nacido" + 0.012*"decir"
+
+Tema 3
+Palabras: 0.054*"tener" + 0.031*"pollo" + 0.031*"profesional" + 0.021*"gratis" + 0.021*"significa" + 0.021*"amigo" + 0.016*"mejor" + 0.016*"asado" + 0.016*"fritas" + 0.016*"trabajos"
+
+Tema 4
+Palabras: 0.031*"puede" + 0.021*"materias" + 0.021*"nadie" + 0.021*"todas" + 0.021*"para" + 0.021*"porque" + 0.021*"tesis" + 0.011*"profesor" + 0.011*"agua" + 0.011*"grasa"
+
+Tema 5
+Palabras: 0.033*"tienes" + 0.033*"esta" + 0.033*"quesadillas" + 0.022*"pollo" + 0.017*"android" + 0.017*"videos" + 0.017*"stories" + 0.017*"pechuga" + 0.017*"pagina" + 0.017*"instagram"
+
+Tema 6
+Palabras: 0.036*"hace" + 0.019*"dragon" + 0.019*"saiyajin" + 0.019*"convierte" + 0.019*"bien" + 0.019*"persona" + 0.019*"hecha" + 0.019*"inmadura" + 0.019*"cuando" + 0.019*"declaracion"
+
+Tema 7
+Palabras: 0.021*"quiere" + 0.021*"sabor" + 0.021*"nadie" + 0.021*"pareja" + 0.021*"casa" + 0.021*"criollo" + 0.021*"envy" + 0.021*"vera" + 0.021*"ricos" + 0.021*"decir"
+
+Tema 8
+Palabras: 0.028*"pizza" + 0.028*"cafe" + 0.028*"pina" + 0.028*"nutricion" + 0.028*"estudian" + 0.028*"tragan" + 0.028*"asco" + 0.028*"insomnio" + 0.003*"pollo" + 0.003*"mejor"
+
+Tema 9
+Palabras: 0.035*"mejor" + 0.023*"prevenir" + 0.023*"tienen" + 0.023*"pollo" + 0.012*"paquete" + 0.012*"siempre" + 0.012*"sirven" + 0.012*"copia" + 0.012*"deliciosa" + 0.012*"mercado"
