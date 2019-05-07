@@ -135,7 +135,7 @@ def upload():
     if result == "agujero negro":
         with io.open(APP_ROOT + '/LDA/agujero_negro.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
-    elif result == "bob esponja":
+    elif result == "bob Esponja memes":
         with io.open(APP_ROOT + '/LDA/bob_esponja.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "chavo del ocho":
@@ -147,7 +147,7 @@ def upload():
     elif result == "komo lo zupo":
         with io.open(APP_ROOT + '/LDA/komo_lo_zupo.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
-    elif result == "los simpson":
+    elif result == "los simpsons memes":
         with io.open(APP_ROOT + '/LDA/los_simpson.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "pikachu sorprendido":
