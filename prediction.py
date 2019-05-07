@@ -6,6 +6,9 @@ import cv2
 import pandas as pd
 from pytrends.request import TrendReq
 
+from fbprophet import Prophet
+import matplotlib.pyplot as plt
+
 def predictImage():
     # module-level variables ##############################################################################################
     RETRAINED_LABELS_TXT_FILE_LOC = os.getcwd() + "/" + "retrained_labels.txt"
@@ -118,8 +121,31 @@ def searchTrends(words):
     print(data)
     return data
 
+
+def formatTrendData(data):
+    data.drop(columns=['isPartial'], inplace=True)
+    data.reset_index(inplace = True)
+    data.columns = ["ds","y"]
+    return data
+
+
+def prophet(data):
+    model = Prophet()
+    model.fit(data)
+    future = model.make_future_dataframe(periods=30)
+    future.tail()
+    forecast = model.predict(future)
+    return forecast
+
+
 prediction = predictImage() # Actually predicts all image from the first image in the testing directory
-searchTrends([prediction])
+data = searchTrends([prediction])
+fdata = formatTrendData(data)
+prediction = prophet(fdata)
+print(prediction)
+plt.plot(prediction["trend"])
+plt.show()
+
 
 
 
