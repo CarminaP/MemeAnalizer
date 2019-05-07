@@ -78,7 +78,7 @@ def predictImage(openCVImage):
     tfFileWriter.add_graph(sess.graph)
     tfFileWriter.close()
 
-    return strClassification
+    return strClassification, scoreAsAPercent
 
 # pip install pytrends
 # pip install Cython
@@ -110,12 +110,12 @@ def prophet(data):
     return forecast
 
 def runPrediction(image):
-    category = predictImage(image) # Actually predicts all image from the first image in the testing directory
+    category, score = predictImage(image) # Actually predicts all image from the first image in the testing directory
     data = searchTrends([category])
     fdata = formatTrendData(data)
     prediction = prophet(fdata)
 
-    return category, prediction
+    return category, score, prediction
     # print(prediction)
     # plt.plot(prediction["trend"])
     # plt.show()

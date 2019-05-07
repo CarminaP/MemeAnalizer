@@ -104,8 +104,12 @@ def upload():
     img = cv2.imread(destination)
 
     ##### PREDICTION
-    category, pred = runPrediction(img)
+    category, score, pred = runPrediction(img)
     print(category)
+
+    plt.plot(pred["trend"])
+    plotName = "Trend.png"
+    plt.savefig("/".join([plotTarget, plotName]))
     
     ##### COLOR PROCESSING
     imgCol = np.array(img, dtype = np.uint8)
@@ -155,7 +159,7 @@ def upload():
     elif result == "ya nos exhibiste":
         with io.open(APP_ROOT + '/LDA/ya_nos_exhibistes.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
-    return render_template("complete.html", image_name=filename, lda_result=ldaResult)
+    return render_template("complete.html", image_name=filename, lda_result=ldaResult, category=category, score=score)
 
 @app.route('/upload/<filename>')
 def send_image(filename):
