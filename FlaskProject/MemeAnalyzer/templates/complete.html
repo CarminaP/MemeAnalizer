@@ -64,15 +64,15 @@
         }
 </script>
 <body>
-<h1>This is the analysis of</h1>
+<h1>Este es el análisis de:</h1>
 <img src=" {{url_for('send_image', filename=image_name)}}" alt="Meme Image">
 <div>
-<h2>RGB Graph</h2>
-<img src="{{url_for('static', filename='RGB.png')}}" alt="Plot image">
+<h2>Los 3 colores más predominantes son:</h2>
+<img src="{{url_for('static', filename='Colors.png')}}" alt="Plot image">
 </div>
 <div>
         {%if lda_result != "" %}
-        <h2>Temas por LDA:</h2>
+        <h2>Temas usados en memes parecidos por LDA:</h2>
         <div class="tab">
             {% for line in lda_result.splitlines() %}
                 {%if line.startswith('Tema') %}
