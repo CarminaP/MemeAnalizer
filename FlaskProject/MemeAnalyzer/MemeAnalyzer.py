@@ -57,35 +57,35 @@ def upload():
 
     ######## LDA ANALYSIS (needs tensor flow output for <result>)
     
-    result = "agujero negro"
+    result = category
     ldaResult = ""
 
     if result == "agujero negro":
-        with io.open('LDA/agujero_negro.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/agujero_negro.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "bob esponja":
-        with io.open('LDA/bob_esponja.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/bob_esponja.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "chavo del ocho":
-        with io.open('LDA/chavo_del_ocho.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/chavo_del_ocho.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "dice mi mama":
-        with io.open('LDA/dice_mi_mama.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/dice_mi_mama.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "komo lo zupo":
-        with io.open('LDA/komo_lo_zupo.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/komo_lo_zupo.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "los simpson":
-        with io.open('LDA/los_simpson.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/los_simpson.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "pikachu sorprendido":
-        with io.open('LDA/pikachu_sorprendido.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/pikachu_sorprendido.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "se tenia que decir":
-        with io.open('LDA/se_tenia_que_decir.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/se_tenia_que_decir.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "ya nos exhibiste":
-        with io.open('LDA/ya_nos_exhibistes.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/ya_nos_exhibistes.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     return render_template("complete.html", image_name=filename, lda_result=ldaResult)
 
