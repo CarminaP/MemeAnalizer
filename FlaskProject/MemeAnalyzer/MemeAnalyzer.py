@@ -7,6 +7,8 @@ import io
 from uuid import uuid4
 from flask import Flask, request, render_template, send_from_directory
 
+from prediction import runPrediction
+
 app = Flask(__name__)
 # app = Flask(__name__, static_folder="images")
 
@@ -37,10 +39,13 @@ def upload():
     print ("Accept incoming file:", filename)
     print ("Save it to:", destination)
     upload.save(destination)
-
-    ##### EXAMPLE RGB ANALYSIS
     
     img = cv2.imread(destination)
+
+    ##### PREDICTION
+    category, pred = runPrediction(img)
+    print(category)
+    ##### EXAMPLE RGB ANALYSIS
     color = ('b','g','r')
     for i,col in enumerate(color):
         histr = cv2.calcHist([img],[i],None,[256],[0,256])
@@ -82,8 +87,6 @@ def upload():
     elif result == "ya nos exhibiste":
         with io.open('LDA/ya_nos_exhibistes.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
-    
-
     return render_template("complete.html", image_name=filename, lda_result=ldaResult)
 
 @app.route('/upload/<filename>')
