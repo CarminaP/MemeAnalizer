@@ -95,7 +95,9 @@ def prophet(data):
     future = model.make_future_dataframe(periods=30)
     future.tail()
     forecast = model.predict(future)
-    return forecast
+
+    fig = model.plot_components(forecast)
+    return forecast, fig
 
 def runPrediction(image):
     category, score = predictImage(image) # Actually predicts all image from the first image in the testing directory
@@ -105,9 +107,8 @@ def runPrediction(image):
     print("---------------------------------------------")
     data = searchTrends([category])
     fdata = formatTrendData(data)
-    prediction = prophet(fdata)
+    prediction, fig = prophet(fdata)
 
-    return category, score, prediction
-    # print(prediction)
-    # plt.plot(prediction["trend"])
-    # plt.show()
+    
+
+    return category, score, prediction, fig
