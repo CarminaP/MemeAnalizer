@@ -3,16 +3,68 @@
 <head>
 <title>Meme Analyzer</title>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<style>
+body {
+    font-family: Comic Sans MS;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  padding: 16px 16px;
+  margin: auto;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-image: url("https://media2.giphy.com/media/ZeDIn8vTLaTni/source.gif");
+  background-size: 100% 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 50px 70px;
+}
+</style>
+
 </head>
 <body>
 
-<form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+<h1>Meme Analyzer</h1>
 
-    <strong>Files:</strong><br>
-    <input id="file-picker" type="file" name="file" accept="image/*" multiple>
-    <div id="msg"></div>
-    <input type="submit" value="Upload" id="upload-button">
-</form>
+<div class="card">
+    <div class="container">
+
+        <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+            <br>
+            <strong>Archivo:</strong><br><br>
+            <input id="file-picker" type="file" name="file" accept="image/*" multiple>
+            <div id="msg"></div>
+            <br>
+            <input type="submit" value="Cargar" id="upload-button">
+            <br>
+        </form>
+
+    </div>
+</div>
+
 </body>
 <script>
 
@@ -25,13 +77,13 @@
 
             var ext= input.files[i].name.substring(input.files[i].name.lastIndexOf('.')+1).toLowerCase()
 
-            if ((ext == 'jpg') || (ext == 'png'))
+            if ((ext == 'jpg'))
             {
-                $("#msg").text("Files are supported")
+                $("#msg").text("Archivo soportado")
             }
             else
             {
-                $("#msg").text("Files are NOT supported")
+                $("#msg").text("Archivo NO soportado")
                 document.getElementById("file-picker").value ="";
             }
 
