@@ -51,7 +51,6 @@ def predictImage(openCVImage):
         # sort predictions from most confidence to least confidence
         sortedPredictions = predictions[0].argsort()[-len(predictions[0]):][::-1]
         print("---------------------------------------")
-        onMostLikelyPrediction = True
         # for each prediction . . .
         for prediction in sortedPredictions:
             strClassification = classifications[prediction]
@@ -61,24 +60,13 @@ def predictImage(openCVImage):
                 strClassification = strClassification[:-1]
             # get confidence, then get confidence rounded to 2 places after the decimal
             confidence = predictions[0][prediction]
-
-            # if we're on the first (most likely) prediction, state what the object appears to be and show a % confidence to two decimal places
-            if onMostLikelyPrediction:
-                # get the score as a %
-                scoreAsAPercent = confidence * 100.0
-                # show the result to std out
-                print("the object appears to be a " + strClassification + ", " + "{0:.2f}".format(scoreAsAPercent) + "% confidence")
-                return(strClassification)
-                onMostLikelyPrediction = False
-            # for any prediction, show the confidence as a ratio to five decimal places
-            # print(strClassification + " (" +  "{0:.5f}".format(confidence) + ")")
-
-    # write the graph to file so we can view with TensorBoard
-    tfFileWriter = tf.summary.FileWriter(os.getcwd())
-    tfFileWriter.add_graph(sess.graph)
-    tfFileWriter.close()
-
-    return strClassification, scoreAsAPercent
+            # get the score as a %
+            scoreAsAPercent = confidence * 100.0
+            # show the result to std out
+            print("the object appears to be a " + strClassification + ", " + "{0:.2f}".format(scoreAsAPercent) + "% confidence")
+            return strClassification, scoreAsAPercent
+                
+    return None, None
 
 # pip install pytrends
 # pip install Cython
@@ -111,6 +99,10 @@ def prophet(data):
 
 def runPrediction(image):
     category, score = predictImage(image) # Actually predicts all image from the first image in the testing directory
+    print("---------------------------------------------")
+    print(category)
+    print(score)
+    print("---------------------------------------------")
     data = searchTrends([category])
     fdata = formatTrendData(data)
     prediction = prophet(fdata)

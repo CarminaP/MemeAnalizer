@@ -135,7 +135,7 @@ def upload():
     if result == "agujero negro":
         with io.open(APP_ROOT + '/LDA/agujero_negro.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
-    elif result == "bob Esponja memes":
+    elif result == "bob esponja memes":
         with io.open(APP_ROOT + '/LDA/bob_esponja.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "chavo del ocho":
@@ -157,7 +157,7 @@ def upload():
         with io.open(APP_ROOT + '/LDA/se_tenia_que_decir.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     elif result == "ya nos exhibiste":
-        with io.open(APP_ROOT + '/LDA/ya_nos_exhibistes.txt', 'r', encoding='latin-1') as myfile:
+        with io.open(APP_ROOT + '/LDA/ya_nos_exhibiste.txt', 'r', encoding='latin-1') as myfile:
             ldaResult = myfile.read()
     return render_template("complete.html", image_name=filename, lda_result=ldaResult, category=category, score=score)
 

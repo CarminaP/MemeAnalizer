@@ -90,7 +90,7 @@
     
   </div>
   <div class="column">
-      <img src="{{url_for('static', filename='{{category}}.jpg')}}" alt="Meme prediction image" style="width:100%">
+      <img src="{{url_for('static', filename=category+'.jpg')}}" alt="Meme prediction image" style="width:100%">
       <br>
       Se parece a {{category}}, con una confianza de {{score}}%
   </div>
