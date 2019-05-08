@@ -107,9 +107,11 @@ def upload():
     category, score, pred = runPrediction(img)
     print(category)
 
-    plt.plot(pred["trend"])
+    fig1, ax1 = plt.subplots()
+    ax1.plot(pred["trend"])
     plotName = "Trend.png"
-    plt.savefig("/".join([plotTarget, plotName]))
+    fig1.savefig("/".join([plotTarget, plotName]))
+    plt.close(fig1)
     
     ##### COLOR PROCESSING
     imgCol = np.array(img, dtype = np.uint8)
@@ -122,10 +124,12 @@ def upload():
     hist = find_histogram(clt)
     bar = plot_colors2(hist, clt.cluster_centers_)
 
-    plt.axis("off")
-    plt.imshow(bar)
+    fig2, ax2 = plt.subplots()
+    ax2.axis("off")
+    ax2.imshow(bar)
     plotName = "Colors.png"
-    plt.savefig("/".join([plotTarget, plotName]))
+    fig2.savefig("/".join([plotTarget, plotName]))
+    plt.close(fig2)
 
     ######## LDA ANALYSIS (needs tensor flow output for <result>)
     
